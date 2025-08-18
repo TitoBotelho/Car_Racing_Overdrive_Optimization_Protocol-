@@ -11,9 +11,7 @@ public class Scarlett : Car
     
     void Start()
     {
-        // Initialize Scarlett with balanced settings
-        // Set Scarlett's specific turn speed (balanced)
-        turnSpeed = 90f; // Moderate turning speed for balanced handling
+        // Removed hardcoded turnSpeed assignment to allow Inspector control
         StartEngine(); // Auto-start for testing
     }
     

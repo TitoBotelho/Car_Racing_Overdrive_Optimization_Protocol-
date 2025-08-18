@@ -11,9 +11,7 @@ public class Lilly : Car
     
     void Start()
     {
-        // Initialize Lilly with balanced settings
-        // Set Lilly's specific turn speed (balanced)
-        turnSpeed = 50f; // Moderate turning speed for balanced handling
+        // Removed hardcoded turnSpeed assignment to allow Inspector control
         StartEngine(); // Auto-start for testing
     }
     
