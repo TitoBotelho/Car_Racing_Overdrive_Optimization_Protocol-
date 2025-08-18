@@ -11,9 +11,7 @@ public class Janice : Car
     
     void Start()
     {
-        // Initialize Janice with balanced settings
-        // Set Janice's specific turn speed (balanced)
-        turnSpeed = 90f; // Moderate turning speed for balanced handling
+        // Removed hardcoded turnSpeed assignment to allow Inspector control
         StartEngine(); // Auto-start for testing
     }
     
